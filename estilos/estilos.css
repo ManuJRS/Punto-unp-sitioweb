@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700&display=swap');
+.cover1 {
+    background-image: url("/imagenes/Diseño\ sin\ título\ -\ 2023-04-20T110112.057.png");
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.cont1 {
+    margin-top: 50px;
+}
+.content1 h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.content1 p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+.carousel-item {
+    height: 400px;
+}
+.content1 {
+    background-color: #00000097;
+}
+.card-title {
+    margin-top: 200px;
+}
+.div-titu {
+    height: 50vh;
+    width: 100%;
+    background-color: #00000059;
+    justify-content: center;
+    text-align: center;
+    padding-top: 70px;
+}
+.div-titu p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400 !important;
+    font-size: calc(1rem + 1.5vw);
+    color: #1B1F49;
+}
+.div-titu h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: calc(3rem + 3.2vw);
+    font-weight: 700 !important;
+    color: #1B1F49;
+}
+.bar-menu {
+    position: fixed;
+    width: 100%;
+    background-color: #ffffff00 !important;
+    z-index: 100;
+}
+.navbar-nav {
+    margin-right: 100px;
+    background-color:#000000;
+}
+.nav-link {
+    color: #ffffff;
+}
+.active a {
+    color: #ffffff;
+}
+.nav-item {
+    padding: 2px;
+}
+.nav-item:hover{
+    background-color: #dcd9d9;
+}
+.card-alt {
+    height: 200px;
+}
+.nav-mob {
+    display: none;
+}
+/*CONTENEDOR SOMOS TU PUNTO DE INICIO*/
+
+.cloud-text {
+	font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    -webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;	
+	background-image: url(https://www.esmeraldabrewing.com/imagenes/card-progreso.jpg);
+	background-size: auto;
+	background-position: 0%;
+	width: 80%;
+	PADDING-top: 8%;
+    margin-left: 10%;
+	font-size: calc(3.5rem + 4vw);
+	animation: clouds-moving infinite 220s;
+	animation-fill-mode: forwards;
+	animation-play-state: running;
+	animation-timing-function: linear;
+	text-align: center;
+    z-index: 900;
+}
+@keyframes clouds-moving {
+	0% {
+		background-position: 0%;	
+	}
+	50% {
+		background-position: 100%;	
+	}
+	100% {
+		background-position: 0%;
+	}
+}
+.divisor1 {
+    background-color: #1B1F49;
+    width: 100%;
+    height: 70vh;
+}
+.b-g1 {
+    background-image: url(/imagenes/Diseño\ sin\ título\ \(98\).png);
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+    position: relative;
+}
+.b-g2 {
+    background-image: url(/imagenes/Diseño\ sin\ título\ \(97\).png);
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    background-size: cover;
+}
+.galeria1 {
+    height: 70vh;
+}
+.img-1 {
+    width: 100%;
+}
+.card-img1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card-img2 {
+    background-image: url(/imagenes/Diseno-sin-titulo-16.png);
+    background-position: center;
+    background-size: cover;
+}
+.card-border1 {
+    border: #ffffff 0px solid;
+}
+.card-carrusel {
+    height: 650px;
+}
+.btn-p {
+    background-color: #000000;
+    border: #ffffff 1px solid;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.btn-p:hover {
+    background-color: #ffffff;
+    border: #000000 1px solid;
+    color: #000000;
+}
+.btn-cont {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.cont-bot {
+    height: 45vh;
+}
+.fa-facebook {
+    font-size: 50px;
+    color: #ffffff;
+    margin-top: 30px;
+}
+.fa-instagram {
+    font-size: 50px;
+    color: #ffffff;
+    margin-top: 30px;
+}
+.fa-square-behance {
+    font-size: 50px;
+    color: #ffffff;
+    margin-top: 30px;
+}
+.fa-envelope {
+    font-size: 50px;
+    color: #ffffff;
+    margin-top: 30px;
+}
+.footer1 {
+    background-image: url(/imagenes/Pie-PNG.png);
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    height: 50vh;
+    padding: 0;
+}
+.texto2 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform:uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+.line1 {
+    width: 50%;
+    border: 3px solid;
+}
+.text2 {
+    font-family: 'Montserrat', sans-serif;
+}
+.highlight {
+    background-image: linear-gradient(to right, #F27121cc, #E94057cc, #8A2387cc);
+    border-radius: 6px;
+    padding: 3px 6px;
+}
+.pie-1 {
+    background-color: #4665a9;
+    height: 10vh;
+}

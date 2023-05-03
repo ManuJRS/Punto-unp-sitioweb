@@ -1,0 +1,109 @@
+@media only screen and (max-width: 767px) {
+    .cloud-title {
+        padding-top: 80px;
+        font-size: 30px;
+        animation: clouds-moving infinite 220s;
+        animation-fill-mode: forwards;
+        animation-play-state: running;
+        animation-timing-function: linear;
+        text-align: center;
+        z-index: 900;
+    }
+    @keyframes clouds-moving {
+        0% {
+            background-position: 70%;	
+        }
+        50% {
+            background-position: 100%;	
+        }
+        100% {
+            background-position: 0%;
+        }
+    }
+    .divisor1 {
+        height: 30vh;
+    }
+    .b-g1 {
+        background-image: url(/imagenes/Diseño\ sin\ título\ \(98\).png);
+        background-size: cover;
+        width: 100%;
+        height: 30vh;
+        position: relative;
+    }
+    .b-g2 {
+        background-image: url(/imagenes/Diseño\ sin\ título\ \(97\).png);
+        width: 100%;
+        height: 30vh;
+        background-position: -300px;
+        background-size: cover;
+    }
+    .cover1 {
+        height: 30vh;
+    }
+    .div-titu {
+        height: 30vh;
+    }
+    .card-dise {
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+    .card-web {
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+    .img-card1 {
+        display: none;
+    }
+    .slider-card1 {
+        height: 390px;
+    }
+    .carousel-control-next {
+        height: 390px;
+    }
+    .carousel-control-prev {
+        height: 390px;
+    }
+    .carousel-control-next-icon {
+        background-color: black;
+    }
+    .carousel-control-prev-icon {
+        background-color: black;
+    }
+    .carousel-item {
+        height: auto;
+    }
+    .content1 h5 {
+        padding-top: 100px;
+    }
+    .panel {
+        z-index: 100000 !important;
+    }
+    .boton-nav {
+        float: right;
+        margin-top: 10px;
+        background-color: #000000;
+        border: #ffffff 1px solid;
+        z-index: 2000;
+        position: relative;
+    }
+    .card-title {
+        margin-top: 50px;
+    }
+    .bar-menu {
+        display: none;
+    }
+    .nav-mob {
+        position: fixed;
+        display: block;
+    }
+    .offcanvas{
+        z-index: 2000;
+    }
+    .cont-bot {
+        height:70vh;
+    }
+    .text2 {
+        line-height: 35px;
+    }
+  }
+  

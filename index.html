@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="/estilos/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!--CSS CUSTOM-->
+    <link rel="stylesheet" href="/estilos/estilos.css">
+    <link rel="stylesheet" href="/estilos/estukis-mobile.css">
+    <link rel="stylesheet" href="/estilos/animate.min.css">
+</head>
+<body data-bs-theme="ligth">
+    <div class="container mobile-nav">
+       <div class="row">
+            <div class="col-md-12 nav-mob z-3">
+                <button class="btn btn-primary boton-nav" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Menu</button>
+
+                <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Offcanvas with body scrolling</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body panel">
+                    <p>Try scrolling the rest of the page to see this option in action.</p>
+                </div>
+                </div>
+            </div>
+       </div>
+    </div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bar-menu">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="https://puntounoweb.000webhostapp.com/">Inicio</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Portafolio
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item disabled" href="#">Diseño Gráfico</a></li>
+                  <li><a class="dropdown-item" href="https://puntounoweb.000webhostapp.com/iluistracion">Ilustración</a></li>
+                  <li><a class="dropdown-item disabled" href="#">Fotografía</a></li>
+                  <li><a class="dropdown-item disabled" href="#">Desarrollo Web</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+              <button onclick="cambiarTema()" class="btn rounded-fill"><i id="#dl-icon" class="bi bi-moon-fill"></i></button>
+            </ul>
+           
+          </div>
+        </div>
+      </nav>
+    <div class="container-fluid cover1">
+        <div class="div-titu">
+            <p>Publicidad</p>
+            <h2>Creativa</h2>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row cont1">
+            <div class="col-md-6 py-4">
+                <div class="card text-bg-dark z-0 card1">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="/imagenes/Diseno-sin-titulo-7.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="/imagenes/Diseño sin título - 2023-04-28T090939.794.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="/imagenes/Diseño sin título - 2023-04-28T090928.045.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="/imagenes/Diseño sin título - 2023-04-28T090915.648.png" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                      </div>
+                    <div class="card-img-overlay content1">
+                      <h5 class="card-title">Ilustación</h5>
+                      <p class="card-text">Somos profesionales en ilustración hacemos realidad tu visión.</p>
+                        <a href="#" class="btn btn-primary btn-p" tabindex="-1" role="button">Ver proyectos</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-6 py-4">
+                <div class="card text-bg-dark">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="/imagenes/Diseño sin título - 2023-04-28T092008.658.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="/imagenes/Diseño sin título - 2023-04-28T091954.972.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="/imagenes/Diseño sin título - 2023-04-28T092038.340.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="/imagenes/Diseño sin título - 2023-04-28T092050.842.png" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                      </div>
+                    <div class="card-img-overlay content1">
+                      <h5 class="card-title">Fotografía</h5>
+                      <p class="card-text">Fotografía profesional de alta calidad</p>
+                        <a href="#" class="btn btn-primary btn-p" tabindex="-1" role="button">Ver proyectos</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 card-dise">
+                <div class="card text-bg-dark">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="/imagenes/Diseño sin título - 2023-04-28T093429.987.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="/imagenes/Diseño sin título - 2023-04-28T093457.250.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="/imagenes/Diseño sin título - 2023-04-28T093446.227.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="/imagenes/Diseño sin título - 2023-04-28T093415.975.png" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                      </div>
+                    <div class="card-img-overlay content1">
+                      <h5 class="card-title">Diseño Grafico</h5>
+                      <p class="card-text">Diseño gráfico creativo y funcional, ¡Trabajamos la identidad de tu marca!</p>
+                        <a href="#" class="btn btn-primary btn-p" tabindex="-1" role="button">Ver proyectos</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card text-bg-dark card-web">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="/imagenes/mock-web1.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="/imagenes/mock-web2.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="/imagenes/mock-web3.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="/imagenes/mock-web4.png" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                      </div>
+                    <div class="card-img-overlay content1">
+                      <h5 class="card-title">Diseño y desarrollo web</h5>
+                      <p class="card-text">Desarrollo web innovador y a medida.</p>
+                        <a href="#" class="btn btn-primary btn-p" tabindex="-1" role="button">Ver proyectos</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <div class="container my-5 text-center">
+      <button type="button" class="btn btn-primary btn-p btn-cont" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">¡Contactar!</button>
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">New message</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-start">
+              <form>
+                <div class="mb-3">
+                  <label for="recipient-name" class="col-form-label">Recipient:</label>
+                  <input type="text" class="form-control" id="recipient-name">
+                </div>
+                <div class="mb-3">
+                  <label for="message-text" class="col-form-label">Message:</label>
+                  <textarea class="form-control" id="message-text"></textarea>
+                </div>
+                <p><a class="link-opacity-100" href="#">Politicas de privacidad</a></p>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+              <button type="button" class="btn btn-primary">Enviar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid divisor1">
+      <div class="b-g1">
+        <div class="b-g2">
+          <p class="cloud-text cloud-title ">SOMOS TU <br> PUNTO DE INICIO</p>
+        </div>
+      </div>
+    </div>
+    <div class="container my-4">
+        
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 mb-3 mb-sm-0 text-center slider-card1">
+       
+          <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-inner">
+              <div class="carousel-item active card-carrusel">
+                <img src="/imagenes/2134.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item card-carrusel">
+                <img src="/imagenes/Diseño sin título - 2023-04-27T192044.857.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item card-carrusel">
+                <img src="/imagenes/Diseño sin título - 2023-04-27T192100.037.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          
+        </div>
+        <div class="col-sm-6">
+       
+          <div id="carouselExampleRide1" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-inner slider-card1">
+              <div class="carousel-item active card-carrusel">
+                <img src="/imagenes/4534.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item card-carrusel">
+                <img src="/imagenes/Diseño sin título - 2023-04-27T192737.091.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item card-carrusel">
+                <img src="/imagenes/Diseño sin título - 2023-04-27T192747.445.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide1" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide1" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    
+        </div>
+      </div>
+    </div>
+    <div class="container cont-bot">
+      <h2 class="texto2">Superamos tus expectativas</h2>
+      <hr class="line1">
+      <br>
+      <h4 class="text2">Nos especializamos en la <span class="highlight">creación de branding para empresas</span>, lo que significa que trabajamos para que tu marca tenga una presencia sólida y reconocida en el mercado.</h4>
+      <br>
+      <h4 class="text2" >Nuestro equipo está conformado por <span class="highlight">creativos</span> y <span class="highlight">profesionales</span> apasionados por su trabajo. Nos enorgullece ser una agencia joven y dinámica, siempre buscando <span class="highlight">innovar</span> en cada proyecto que tomamos.</h4>
+    </div>
+    <div class="container-fluid footer1">
+
+    </div>
+    <div class="container-fluid pie-1">
+      <div class="row">
+        <div class="col-md-2">
+
+        </div>
+        <div class="col-md-2 text-center">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+        <div class="col-md-2 text-center">
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <div class="col-md-2 text-center">
+          <a href="#"><i class="fa-brands fa-square-behance"></i></a>
+        </div>
+        <div class="col-md-2 text-center">
+          <a href="#"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+        <div class="col-md-2">
+
+        </div>
+      </div>
+    </div>
+    <!--js-->
+    <script>
+      const temaOscuro = () => {
+        document.querySelector("body").setAttribute("data-bs-theme", "dark");
+        document.querySelector("#dl-icon").setAttribute("class", "bi bi-sun-fill");
+      }
+      const temaClaro = () => {
+        document.querySelector("body").setAttribute("data-bs-theme", "light");
+        document.querySelector("#dl-icon").setAttribute("class", "bi bi-moon-fill");
+      }
+      const cambiarTema = () => {
+        document.querySelector("body").getAttribute("data-bs-theme") === "light"?
+        temaOscuro() : temaClaro();
+      }
+    </script>
+    <script src="/JS/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/a27dbe0937.js" crossorigin="anonymous"></script>
+</body>
+</html>

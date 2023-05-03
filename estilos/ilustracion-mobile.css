@@ -1,0 +1,65 @@
+@media only screen and (max-width: 767px) {
+    .contenedor1 {
+        height: 80vh;
+    }
+    .contenedor2 {
+        height: 60vh;
+    }
+    .contenedor3 {
+        height: 60vh;
+    }
+    .boton-nav {
+        float: right;
+        margin-top: 10px;
+        background-color: #000000;
+        border: #ffffff 1px solid;
+        z-index: 2000;
+        position: relative;
+    }
+    .bar-menu {
+        display: none;
+    }
+    .nav-mob {
+        position: fixed;
+        display: block;
+    }
+    .offcanvas{
+        z-index: 2000;
+    }
+    .cont-bot {
+        height:70vh;
+    }
+    .text2 {
+        line-height: 35px;
+    }
+    .fa-square-instagram {
+        margin-top: 35px;
+        color: #ffffff;
+        font-size: 30px;
+    }
+    .fa-square-behance {
+        color: #ffffff;
+        margin-left: 15px;
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .contenedor1 {
+        height: 100vh;
+    }
+    .contenedor2 {
+        height: 80vh;
+    }
+    .contenedor3 {
+        height: 80vh;
+    }
+    .shape-1 {
+        height: 25vh;
+    }
+    .f-bot {
+        height: 30vh;
+    }
+    .f-bot1 {
+        height: 20vh;
+    }
+}

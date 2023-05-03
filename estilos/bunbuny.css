@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700&display=swap');
+.contenedor1 {
+    height: 50vh;
+}
+.contenedor2 {
+    height: 60vh;
+}
+.titulo1azul h1 {
+    padding-top: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #000000;
+    font-size: calc(2rem + 2.3vw);
+}
+.titulo1blanco h1 {
+    padding-top: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #1B1F49;
+    font-size: calc(2rem + 2.3vw);
+}
+.titulo1azul p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: calc(1rem + 1.5vw);
+}
+.breadcrumb li a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: calc(1rem + 1.2vw);
+    color: #1B1F49;
+    text-decoration: none;
+}
+.breadcrumb li {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: calc(1rem + 1.2vw);
+    color: #1B1F49;
+    text-decoration: none;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    font-size: calc(1rem + 1.2vw);
+}
+.titulo1azul {
+    border-right:#CED4DA 1px solid;
+    margin-top: 15px;
+}
+.contenedor2 h2 {
+    font-size: calc(1rem + 1.9vw);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding-top: 360px;
+}
+.contenedor2 p {
+    font-size: calc(0.8rem + 1vw);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+.contenedor4 {
+    height: 20vh;
+}
+.linea1 {
+    width: 80%;
+    border: #CED4DA 3px solid;
+}
+.linea2 {
+    margin-top: 30px;
+    width: 60%;
+    border: #CED4DA 3px solid;
+}
+.contenedor5 h2 {
+    font-size: calc(1rem + 1.9vw);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+   
+}
+.contenedor5 p {
+    font-size: calc(0.8rem + 1vw);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+.contenedor5 {
+    height: 20vh;
+}
+.linea3 {
+    float: right;
+    width: 80%;
+    border: #CED4DA 3px solid;
+}
+.linea4 {
+    float: right;
+    margin-top: 30px;
+    width: 60%;
+    border: #CED4DA 3px solid;
+}
+.contenedor7 {
+    height: 70vh;
+}
+.card {
+    margin-top: 100px;
+}
+.card-title {
+    margin-top: 100px;
+    font-size: calc(2rem + 2.5vw);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.card-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: calc(0.8rem + 1vw);
+}
+.contenedor8 {
+    height: 50vh;
+    background-color: #1B1F49;
+}
+.contenedor8 h2 {
+    margin-top: 80px;
+    font-size: calc(1rem + 1.9vw);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+}
+.contenedor8 h4 {
+    font-size: calc(1rem + 1.2vw);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin-top: 40px;
+    color: #ffffff;
+}
+.contenedor9 {
+    padding-left: 0;
+    padding-right: 0;
+    background-color: #1B1F49;
+}
+.btn-light {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-top: 70px;
+}
+.f-bot {
+    height: 10vh;
+    background-color: #ffffff;
+}
+.f-bot1 {
+    height: 10vh;
+    background-color: #ffffff;
+}
+.fa-square-instagram {
+    margin-top: 40px;
+    color: #1B1F49;
+    font-size: 60px;
+}
+.fa-square-behance {
+    color: #1B1F49;
+    margin-left: 15px;
+    font-size: 60px;
+}
+.correo1 {
+    margin-top: 50px;
+}
+.correo1 a {
+    color: #1B1F49;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.correo2 a {
+    color: #1B1F49;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.custom-shape-divider-bottom-1682437620 {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+.custom-shape-divider-bottom-1682437620 svg {
+    position: relative;
+    display: block;
+    width: calc(206% + 1.3px);
+    height: 204px;
+}
+.custom-shape-divider-bottom-1682437620 .shape-fill {
+    fill: #ffffff;
+}
+.bar-menu {
+    position: fixed;
+    width: 100%;
+    background-color: #ffffff00 !important;
+    z-index: 100;
+}
+.navbar-nav {
+    margin-right: 100px;
+    background-color:#000000;
+}
+.nav-link {
+    color: #ffffff;
+}
+.active a {
+    color: #ffffff;
+}
+.nav-item {
+    padding: 2px;
+}
+.nav-item:hover{
+    background-color: #dcd9d9;
+}
+.nav-mob {
+    display: none;
+}
